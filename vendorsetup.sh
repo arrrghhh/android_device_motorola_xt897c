@@ -1,2 +1,0 @@
-add_lunch_combo carbon_xt897c-userdebug
-add_lunch_combo full_xt897c-userdebug
