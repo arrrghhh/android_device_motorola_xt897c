@@ -55,7 +55,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.mot.ignore_csim_appid=true \
     telephony.rilV7NeedCDMALTEPhone=true \
     ro.cdma.subscription=1 \
-    DEVICE_PROVISIONED=1
+    DEVICE_PROVISIONED=1 \
+    persist.sys.report_gprs_as_edge=1 \
+    persist.timed.enable=true
 
 # IDC
 PRODUCT_COPY_FILES += \
