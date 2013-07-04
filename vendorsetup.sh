@@ -1,2 +1,3 @@
-add_lunch_combo ev_xt897c-userdebug
+add_lunch_combo full_xt897c-eng
 add_lunch_combo full_xt897c-userdebug
+add_lunch_combo full_xt897c-codefirex
