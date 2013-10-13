@@ -1,11 +1,11 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/cdma.mk)
+$(call inherit-product, vendor/cos/config/cdma.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cos/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/cos/config/nfc_enhanced.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 540
@@ -13,7 +13,7 @@ TARGET_SCREEN_HEIGHT := 960
 
 # Release name
 PRODUCT_RELEASE_NAME := xt897c
-PRODUCT_NAME := cm_xt897c
+PRODUCT_NAME := cos_xt897c
 
 $(call inherit-product, device/motorola/xt897c/full_xt897c.mk)
 
