@@ -1,8 +1,9 @@
 ## Specify phone tech before including full_phone
 $(call inherit-product, vendor/cos/config/cdma.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common cos stuff.
 $(call inherit-product, vendor/cos/config/common_full_phone.mk)
+$(call inherit-product, vendor/cos/config/common.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/cos/config/nfc_enhanced.mk)
