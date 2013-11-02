@@ -1,8 +1,8 @@
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/aokp/config/cdma.mk)
+## Specify phone tech before including common
+$(call inherit-product, vendor/aokp/configs/cdma.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/aokp/config/common_full_phone.mk)
+# Inherit some common AOKP stuff.
+$(call inherit-product, vendor/aokp/configs/common.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/aokp/config/nfc_enhanced.mk)
