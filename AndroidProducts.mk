@@ -15,4 +15,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_xt897c.mk \
-    $(LOCAL_DIR)/custom_xt897c.mk
+    $(LOCAL_DIR)/omni_xt897c.mk
